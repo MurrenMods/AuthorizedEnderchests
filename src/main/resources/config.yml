@@ -1,0 +1,10 @@
+# Configuration for the AuthorizedEnderchests plugin by Murren.
+
+# Toggles if /ec should be enabled.
+enable-ec: true
+
+# Toggles if /aec should be enabled.
+enable-aec: true
+
+# Toggles if the player needs an enderchest in their inventory to be able to open their own or another player's enderchest.
+needs-enderchest: true

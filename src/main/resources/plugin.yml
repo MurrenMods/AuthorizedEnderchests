@@ -1,0 +1,30 @@
+name: AuthorizedEnderchests
+version: '${project.version}'
+main: me.murren.authorizedenderchests.AuthorizedEnderchests
+api-version: '1.19'
+
+commands:
+  ec:
+    description: Open your own enderchest.
+    usage: /ec
+    permission: aec.ec
+    aliases: [ec, enderchest]
+  aec:
+    description: Permit or revoke access to your enderchest, or open one.
+    usage: /aec <permit/revoke/open> <player>
+    permission: aec.aec
+    aliases: [tracker]
+
+permissions:
+  aec.*:
+    description: All permissions. Do not use this for normal players!
+    default: op
+    children:
+      aec.ec: true
+      aec.aec: true
+  aec.ec:
+    description: Allows the player to open their own enderchest
+    default: true
+  aec.aec:
+    description: Allows the player to permit or revoke access to their enderchest
+    default: true
