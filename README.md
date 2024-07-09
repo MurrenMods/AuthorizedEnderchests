@@ -17,10 +17,11 @@ Permits the specified player to access your enderchest.
 Revokes the specified player to access your enderchest, if they had access.
 
 ## Config
-enable-ec: Toggles if /enderchest should be enabled.
-enable-aec: Toggles if /aec should be enabled.
-needs-enderchest: Toggles if the player needs an enderchest in their inventory to be able to open their own or another player's enderchest.
+- enable-ec: Toggles if /enderchest should be enabled.
+- enable-aec: Toggles if /aec should be enabled.
+- needs-enderchest: Toggles if the player needs an enderchest in their inventory to be able to open their own or another player's enderchest.
 
 ## Permissions
-authorizedenderchests.ec: Allow player to use /ec (default on)
-authorizedenderchests.aec: Allow player to use /aec (default on)
+- authorizedenderchests.*: All permissions. Do not use for normal players!
+- authorizedenderchests.ec: Allow player to use /ec (default on)
+- authorizedenderchests.aec: Allow player to use /aec (default on)
