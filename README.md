@@ -9,11 +9,11 @@ Configurable option to require players to have an enderchest in their inventory 
 ### /enderchest
 Also working as /ec, this command will open your own enderchest.
 ### /aec <open|permit|revoke> <player>
-#### /aec open <player>
+#### /aec open \<player>
 Opens the enderchest of the specified player if permission is given.
-#### /aec permit <player>
+#### /aec permit \<player>
 Permits the specified player to access your enderchest.
-#### /aec revoke <player>
+#### /aec revoke \<player>
 Revokes the specified player to access your enderchest, if they had access.
 
 ## Config
